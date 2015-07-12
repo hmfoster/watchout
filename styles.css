@@ -2,4 +2,23 @@
 
 /* Note: an asteroid image is included in this repo.
 Feel free to use it if you like. */
-
+body{
+  background-color: #000
+}
+div{
+  width: 230px;
+}
+div.scoreboard{
+  position: fixed;
+  color: #fff;
+  font-size: 24px;
+  font-family: arial;
+  background-color: #333;
+  width: 230px;
+  border: 5px solid #5B413D;
+  border-radius: 5px;
+  top:0;
+}
+.collisions, .current, .high{
+  padding: 5px
+}
